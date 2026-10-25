@@ -4,7 +4,7 @@ Selected shipped milestones, written for people using apedin. This is not an exh
 
 Release dates below follow the existing product release records.
 
-## Unreleased — profile, sign-in and sharing polish
+## 0.27.2 — 2026-10-25
 
 - Fix an error that could leave a caller profile drawer blank.
 - Show explicit loading placeholders while sign-in options and other ranked mentions load.
@@ -22,7 +22,6 @@ Release dates below follow the existing product release records.
 - Choose Gold Standard, Profit Ticket or Night Signal for an individual callout image.
 - Larger caller names adapt to available space, with source and rank shown where available.
 - Positive position returns use emerald green; negative returns use red. Cards retain a captured-snapshot label and omit the since-call line.
-- These image-sharing changes are in local testing and are not yet live.
 
 ## 0.27.1 — 2026-10-25
 
