@@ -4,6 +4,17 @@ Selected shipped milestones, written for people using apedin. This is not an exh
 
 Release dates below follow the existing product release records.
 
+## 0.27.3 — 2026-10-26
+
+- Highlight and reveal the selected thesis timeline post; use the newest post when the requested post is unavailable.
+
+- Offer Save or share image on devices supporting native image sharing, with Download image kept as a fallback.
+
+- Use more of the existing rank-badge width for larger rank numbers, retaining badge and feed-row heights.
+- Enlarge compact-feed names, source marks, activity metrics and primary action icons within their existing layout.
+- Grey out profile video entry points while video creation is unavailable.
+- Keep the history pause button’s accessibility state aligned with its Resume live label.
+
 ## 0.27.2 — 2026-10-25
 
 - Fix an error that could leave a caller profile drawer blank.
