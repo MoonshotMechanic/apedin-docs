@@ -4,6 +4,26 @@ Selected shipped milestones, written for people using apedin. This is not an exh
 
 Release dates below follow the existing product release records.
 
+## Unreleased — profile, sign-in and sharing polish
+
+- Fix an error that could leave a caller profile drawer blank.
+- Show explicit loading placeholders while sign-in options and other ranked mentions load.
+- Make thesis links clearer with visible actions and keyboard focus treatment.
+- Point site documentation links to the new public documentation repository.
+- Keep video creation visibly disabled when rendering is unavailable.
+- Load compressed share-card artwork only as each style is selected.
+
+- Share text includes the caller’s available source rank and ranking period, including the X post shortcut.
+
+- Larger token artwork and names accompany a prominent source-and-rank identity panel with a raised badge, larger rank label, and platform icons beside source names. Rank remains conditional on available source data.
+
+- Image cards now use angled, dimensional amount lettering and compact raised return badges; positive returns remain emerald and negative returns red.
+
+- Choose Gold Standard, Profit Ticket or Night Signal for an individual callout image.
+- Larger caller names adapt to available space, with source and rank shown where available.
+- Positive position returns use emerald green; negative returns use red. Cards retain a captured-snapshot label and omit the since-call line.
+- These image-sharing changes are in local testing and are not yet live.
+
 ## 0.27.1 — 2026-10-25
 
 - Refresh historical counters separately from live status, with clear warming and stale states.
