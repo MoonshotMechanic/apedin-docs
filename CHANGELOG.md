@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.28.4 — 2026-10-26
+
+- Resolve a supported Solana Token-2022 coin’s own X link from self-referenced on-chain metadata and a public HTTPS metadata file, rather than from text in a feed call. Unavailable or invalid metadata is never replaced with an arbitrary post.
+- Keep coin-level X evidence compact: the preview shows captured metrics and post context, while source provenance and calibration context remain available in the expanded details.
+- Open a compact caller snapshot from a feed-row avatar. It shows available source rank and the row’s recorded snapshot, then opens the existing caller profile when selected. Desktop supports hover; touch devices support tap.
+
 ## 0.28.3 — 2026-10-26
 
 - Show an existing captured X snapshot on feed calls about the same token and chain, even when a different call supplied the post link.

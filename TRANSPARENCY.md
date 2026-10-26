@@ -58,10 +58,14 @@ This repository contains public documentation; application code and deployment s
 
 ## Captured X activity
 
-X activity is a captured snapshot of a direct post linked in a new feed call, not a live growth meter. Feed calls about the exact same token address and chain can share an existing captured post snapshot, even when another call supplied its link. The card identifies coin-level evidence, the X post author, source context and actual capture time. These are not metrics at the displayed call’s time, and the displayed caller is not assumed to have authored or endorsed the post. When multiple captured posts are available for a coin, the most recently captured available baseline is shown.
+X activity is a captured snapshot of a direct post associated with a coin, not a live growth meter. For supported Solana Token-2022 coins with self-referenced metadata and a public HTTPS metadata file, apedin reads the coin’s own X link; text in a feed call is not used as that source. Unsupported metadata or a missing X link can leave X activity unavailable. An invalid metadata update does not substitute an arbitrary post; previously verified evidence can remain marked stale while it is rechecked. Feed calls about the exact same token address and chain can share a captured post snapshot selected by the coin’s current verified link; earlier captures remain preserved. The card identifies coin-level evidence, the X post author and actual capture time. These are not metrics at the displayed call’s time, and the displayed caller is not assumed to have authored or endorsed the post.
 
 Replies, likes, views, reposts and quotes are provider-reported observations. Missing values remain unavailable. Author details provide context, not a credibility or safety rating. A newly received call may link an older post; the card shows the post age at capture.
 
 Comparative scores remain unavailable while references accumulate; explicitly zero likes and replies can show zero activity. Later comparisons use previously captured posts of similar age and remain provisional when evidence is sparse. Future calibration does not rewrite earlier snapshots or scores. These indicators do not measure bots, authenticity, sentiment or expected investment returns.
 
 Collection is limited to new incoming calls, bounded to at most 1,000 unique post attempts per UTC day, and does not refresh for each viewer. Budget-excess links can be skipped rather than collected later, so coverage is incomplete. No historical demonstration data is used to seed production results.
+
+## Compact caller previews
+
+Selecting a feed-row avatar opens a compact caller preview. It can show an available source rank and the row’s recorded position snapshot, when supplied by that source. These are source-labelled, call-scoped observations, not a caller-wide performance claim. The preview opens the existing caller profile for more context.
