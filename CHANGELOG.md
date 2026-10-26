@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.28.5 — 2026-10-26
+
+- Recover supported IPFS-hosted coin metadata through a content-verified fallback when its original gateway is unavailable.
+- Retry temporary coin-metadata lookup failures within bounded limits; previously captured X snapshots stay unchanged.
+- Expand the desktop feed into the available page width while retaining the sidebars and mobile layout.
+
 ## 0.28.4 — 2026-10-26
 
 - Resolve a supported Solana Token-2022 coin’s own X link from self-referenced on-chain metadata and a public HTTPS metadata file, rather than from text in a feed call. Unavailable or invalid metadata is never replaced with an arbitrary post.
