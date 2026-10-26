@@ -55,3 +55,13 @@ Sensitive reproduction details, personal information and internal operational lo
 The [changelog](CHANGELOG.md) records selected shipped milestones. Unreleased work and local test results are not evidence that a change is running in production. The website footer identifies the running release.
 
 This repository contains public documentation; application code and deployment systems are maintained privately. Keeping code private limits what readers can independently verify from this repository, so claims here should be read within the stated evidence and scope.
+
+## Captured X activity
+
+X activity is a captured snapshot of a direct post linked in a new feed call, not a live growth meter. Multiple calls linking the same post share its original captured metrics. An association does not establish endorsement or ownership.
+
+Replies, likes, views, reposts and quotes are provider-reported observations. Missing values remain unavailable. Author details provide context, not a credibility or safety rating. A newly received call may link an older post; the card shows the post age at capture.
+
+Comparative scores remain unavailable while references accumulate; explicitly zero likes and replies can show zero activity. Later comparisons use previously captured posts of similar age and remain provisional when evidence is sparse. Future calibration does not rewrite earlier snapshots or scores. These indicators do not measure bots, authenticity, sentiment or expected investment returns.
+
+Collection is limited to new incoming calls, bounded to at most 1,000 unique post attempts per UTC day, and does not refresh for each viewer. Budget-excess links can be skipped rather than collected later, so coverage is incomplete. No historical demonstration data is used to seed production results.

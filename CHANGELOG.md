@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.28.2 — 2026-10-26
+
+- Improve restoration of a previous sign-in when the same account remains authenticated with the sign-in provider. Signing out suppresses automatic restoration.
+- Show newly captured X evidence on existing feed rows without a page reload.
+- Add compact X activity indicators and a detailed hover/tap card where a captured post snapshot is available. Mobile uses a bottom card.
+- Begin forward-only collection of direct X post links in newly arriving feed calls. Historical feed records are not backfilled. Each post has one captured baseline, with capture time and provisional status shown.
+
+
 Selected shipped milestones, written for people using apedin. This is not an exhaustive record of every patch or deployment. The website footer displays the running application version; the newest entry below should not be treated as a live version check.
 
 Release dates below follow the existing product release records.
