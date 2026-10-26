@@ -58,7 +58,7 @@ This repository contains public documentation; application code and deployment s
 
 ## Captured X activity
 
-X activity is a captured snapshot of a direct post linked in a new feed call, not a live growth meter. Multiple calls linking the same post share its original captured metrics. An association does not establish endorsement or ownership.
+X activity is a captured snapshot of a direct post linked in a new feed call, not a live growth meter. Feed calls about the exact same token address and chain can share an existing captured post snapshot, even when another call supplied its link. The card identifies coin-level evidence, the X post author, source context and actual capture time. These are not metrics at the displayed call’s time, and the displayed caller is not assumed to have authored or endorsed the post. When multiple captured posts are available for a coin, the most recently captured available baseline is shown.
 
 Replies, likes, views, reposts and quotes are provider-reported observations. Missing values remain unavailable. Author details provide context, not a credibility or safety rating. A newly received call may link an older post; the card shows the post age at capture.
 

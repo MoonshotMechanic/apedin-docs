@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.28.3 — 2026-10-26
+
+- Show an existing captured X snapshot on feed calls about the same token and chain, even when a different call supplied the post link.
+- Identify coin-level X evidence separately from the feed caller, with post attribution, source context, and capture time. Snapshot metrics are not historical metrics at the call’s time.
+
 ## 0.28.2 — 2026-10-26
 
 - Improve restoration of a previous sign-in when the same account remains authenticated with the sign-in provider. Signing out suppresses automatic restoration.
