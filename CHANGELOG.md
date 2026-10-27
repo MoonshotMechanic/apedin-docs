@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.29.0 — Unreleased
+
+Prepared changes; not yet live.
+
+- Reorder ultra-compact rows to show avatar, rank, source, time and username; shorten position labels.
+- Remove the Observations page.
+- Give thesis text a separate section with available caller avatar/ranks, keeping market capture details below.
+- Use clearer experimental X engagement wording; scoring weights and frozen evidence stay unchanged.
+- Add a coin-age filter to the current ticker results, with stacked selectors and aligned navigation. Unknown coin ages remain visible under All ages; trading-pair age is not substituted.
+- Reduce reward-processing work that can delay feed requests while preserving ownership and reward eligibility checks.
+- Improve release preflight checks for available storage.
+
 ## 0.28.6 — 2026-10-27
 
 - Improve X metadata processing throughput and share queued work across repeated calls for the same coin.
