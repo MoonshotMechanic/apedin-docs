@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.28.6 — 2026-10-27
+
+- Improve X metadata processing throughput and share queued work across repeated calls for the same coin.
+- Preserve one captured snapshot per post, forward-only collection and the existing daily collection limit.
+
 ## 2026-10-27 — KolScan ranking recovery
 
 - Restore fresh daily, weekly and monthly KolScan rankings after adapting to its updated leaderboard response.
