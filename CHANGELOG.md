@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.29.2 — 2026-10-28
+
+- Fix comments on certain Axiom calls whose post identifiers contain a source prefix.
+- Keep the page at its normal size after focusing a comment field on mobile.
+
 ## 0.29.1 — 2026-10-27
 
 - Refresh available verified coin-creation dates more frequently and deliver late results sooner while keeping new feed rows prioritized.
