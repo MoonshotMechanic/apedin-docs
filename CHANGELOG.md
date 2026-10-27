@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.29.1 — 2026-10-27
+
+- Refresh available verified coin-creation dates more frequently and deliver late results sooner while keeping new feed rows prioritized.
+- Preserve verified dates and leave unknown ages blank; call times and trading-pair ages are not substituted for coin creation.
+
 ## 0.29.0 — 2026-10-27
 
 - Reorder ultra-compact rows to show avatar, rank, source, time and username; shorten position labels.
