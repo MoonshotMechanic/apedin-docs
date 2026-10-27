@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-27 — KolScan ranking recovery
+
+- Restore fresh daily, weekly and monthly KolScan rankings after adapting to its updated leaderboard response.
+- Rank badges continue to require current supporting evidence; expired rankings are not presented as current.
+
 ## 0.28.5 — 2026-10-26
 
 - Recover supported IPFS-hosted coin metadata through a content-verified fallback when its original gateway is unavailable.
