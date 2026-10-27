@@ -21,7 +21,6 @@ The current service does not execute trades or take custody of funds. Wallet con
 - **Metrics need context.** Prices, market caps, holder counts and positions can be provider-reported snapshots. They are not independently verified entry prices, realised returns or promises of future performance.
 - **Other ranked mentions use captured history.** Feed-row counts refer to other currently ranked/KOL source accounts recorded mentioning the same token. Repeat mentions from one source account count once, the row’s caller is excluded, and the detail list shows each account’s latest recorded mention. Accounts on different platforms are counted separately; this is not a count of independently verified people or a complete record of every mention.
 - **Attention measures observed activity.** Experimental Attention indicators are not price predictions or token safety scores. Missing coverage should be interpreted as unavailable information, not zero activity.
-- **Observations summarise the recorded dataset.** Experimental caller-habit and participation views use completed UTC days, show their covered date range and sample size, and can change as the recorded dataset grows. They are not forecasts, investment recommendations or a complete view of market activity.
 - **Progression is service recognition.** XP, levels, badges and evolution are not money, an entitlement to a token, or evidence of investment skill.
 
 An integration or source label does not imply a partnership or endorsement by that provider. Linked platforms have their own terms and policies.
@@ -62,7 +61,7 @@ X activity is a captured snapshot of a direct post associated with a coin, not a
 
 Replies, likes, views, reposts and quotes are provider-reported observations. Missing values remain unavailable. Author details provide context, not a credibility or safety rating. A newly received call may link an older post; the card shows the post age at capture.
 
-Comparative scores remain unavailable while references accumulate; explicitly zero likes and replies can show zero activity. Later comparisons use previously captured posts of similar age and remain provisional when evidence is sparse. Future calibration does not rewrite earlier snapshots or scores. These indicators do not measure bots, authenticity, sentiment or expected investment returns.
+Comparative scores remain unavailable while references accumulate; explicitly zero likes and replies can show zero activity. The experimental Post engagement score compares previously captured posts of similar age. Sparse reference data limits how confidently it can be interpreted. Future calibration does not rewrite earlier snapshots or scores. These indicators do not measure bots, authenticity, sentiment or expected investment returns.
 
 Collection is limited to new incoming calls, bounded to at most 1,000 unique post attempts per UTC day, and does not refresh for each viewer. Budget-excess links can be skipped rather than collected later, so coverage is incomplete. No historical demonstration data is used to seed production results.
 

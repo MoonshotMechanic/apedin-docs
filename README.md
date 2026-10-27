@@ -15,7 +15,6 @@ apedin brings meme-coin callouts and community discussion into one place, with s
 - Follow callers and use filters to focus your feed.
 - See which other currently ranked/KOL source accounts mentioned a token, with a latest-mention list from captured history.
 - Explore activity and experimental Attention indicators, with missing-data and coverage limitations shown where available.
-- Review experimental Observations that summarise caller market-cap habits and overlapping community participation from the recorded dataset.
 
 Source availability and history vary. Imported activity is attributed to its source; an imported profile does not establish that someone has claimed or controls it. See [how we describe our data](TRANSPARENCY.md).
 

@@ -1,8 +1,6 @@
 # Changelog
 
-## 0.29.0 — Unreleased
-
-Prepared changes; not yet live.
+## 0.29.0 — 2026-10-27
 
 - Reorder ultra-compact rows to show avatar, rank, source, time and username; shorten position labels.
 - Remove the Observations page.
