@@ -1,9 +1,10 @@
 # Changelog
 
-## Unreleased — 0.29.5
+## 0.29.5 — 2026-10-28
 
 - Speed up exact coin feed lookups so they do not hold up unrelated requests.
 - Reduce overhead when checking newly received calls for missing coin ages.
+- Enable a bounded fallback for missing Solana coin ages on newly received calls. It accepts a creation date only after checking the matching finalized mint-creation transaction; unavailable or unverifiable ages remain blank.
 
 ## 0.29.4 — 2026-10-28
 
