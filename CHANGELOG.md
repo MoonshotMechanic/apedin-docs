@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased — 0.29.5
+
+- Speed up exact coin feed lookups so they do not hold up unrelated requests.
+- Reduce overhead when checking newly received calls for missing coin ages.
+
 ## 0.29.4 — 2026-10-28
 
 - Show reconnection status after stalled feed requests and ignore outdated request failures.
