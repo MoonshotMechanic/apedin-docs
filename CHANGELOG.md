@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.29.4 — 2026-10-28
+
+- Show reconnection status after stalled feed requests and ignore outdated request failures.
+- Improve mobile search and composer text sizing while preserving user zoom.
+- Simplify empty discussion messages and distinguish general comments from replies to calls.
+- Correct optional Solana coin-age batch decoding while preserving independent creation verification and bounded requests.
+
 ## 0.29.3 — 2026-10-28
 
 - Redesign standalone public profiles with layered surfaces, recessed rank displays, and clearer calls, identity and evidence sections. In-feed profile drawers retain their existing layout.
