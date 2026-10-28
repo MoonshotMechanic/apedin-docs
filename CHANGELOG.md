@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.29.6 — 2026-10-29
+
+- Refine standalone public-profile curves around the identity section.
+- Add existing X engagement previews to top coin cards and use neutral charcoal card backgrounds.
+- Group missing coin-age lookups more efficiently and bound retries for missing results, while preserving independent creation-time verification and usage limits.
+- Reduce background archive-counter refresh frequency and improve refresh resilience; live source health remains independent.
+
 ## 0.29.5 — 2026-10-28
 
 - Speed up exact coin feed lookups so they do not hold up unrelated requests.
