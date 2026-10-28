@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.29.3 — 2026-10-28
+
+- Redesign standalone public profiles with layered surfaces, recessed rank displays, and clearer calls, identity and evidence sections. In-feed profile drawers retain their existing layout.
+- Show immediate posting feedback and explicit confirmation for comments, clear confirmed drafts, and prevent duplicate taps while posting.
+- Simplify feed timestamps by removing the Replayed label.
+- Prepare an optional independently verified Solana coin-age fallback; it remains disabled pending production activation.
+
 ## 0.29.2 — 2026-10-28
 
 - Fix comments on certain Axiom calls whose post identifiers contain a source prefix.
