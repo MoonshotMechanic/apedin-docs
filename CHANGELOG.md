@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.29.9 — 2026-10-29
+
+- Add periodic Pump feed reconciliation so new calls can arrive even when live feed notifications stop.
+- Show degraded Pump ingestion when feed checks become stale instead of relying only on connection heartbeats. Existing deduplication and retry limits remain in place.
+
 ## 0.29.8 — 2026-10-29
 
 - Place compact, source-labelled rank displays beneath public-profile identity, alongside connected-platform navigation.
