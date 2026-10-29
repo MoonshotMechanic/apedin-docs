@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.29.8 — 2026-10-29
+
+- Place compact, source-labelled rank displays beneath public-profile identity, alongside connected-platform navigation.
+- Add Follow in app and Share profile actions, with confirmation when a profile link is copied.
+- Show available primary-account progression with its source label and remove duplicate oversized rank panels. Connected account histories remain separate.
+
 ## 0.29.7 — 2026-10-29
 
 - Filter Latest calls by supported leaderboard and rank range, and by their stored X score. Missing ranks or scores are excluded when their range is selected.
