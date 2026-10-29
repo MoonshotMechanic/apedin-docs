@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.29.10 — 2026-10-30
+
+- Resume budgeted coin-age lookups for unresolved Solana tokens. Creation times still require independent transaction verification.
+- Support conservative late-month provider budget renewals without resetting allowances early in short months.
+
 ## 0.29.9 — 2026-10-29
 
 - Add periodic Pump feed reconciliation so new calls can arrive even when live feed notifications stop.
