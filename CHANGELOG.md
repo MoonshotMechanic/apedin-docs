@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.29.7 — 2026-10-29
+
+- Filter Latest calls by supported leaderboard and rank range, and by their stored X score. Missing ranks or scores are excluded when their range is selected.
+- Use a views-led experimental activity score for new X snapshots: views 35%, replies 25%, likes 20%, smoothed interaction rate 15%, and account age 5%, with a low-view safeguard. Existing captured scores remain unchanged; this is not a prediction or proof of authenticity.
+- Give the Traders directory the main-site navigation, branded avatars, available ranks and social cues linking to public Apedin profiles.
+- Tighten public-profile spacing while retaining the layered design.
+- Prevent wrapped top-card content from clipping and remove remaining green background tint.
+
 ## 0.29.6 — 2026-10-29
 
 - Refine standalone public-profile curves around the identity section.
