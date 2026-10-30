@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.30.4 — 2026-10-31
+
+- Add read-only wallet context for a personal Chrome overlay on Pump holder pages, showing available verified source rank numbers and eligible observed hold-time averages with sample counts. Missing, ambiguous and expired evidence stays hidden.
+- Keep the overlay’s collector preview and export local; collector uploads remain disabled. Looking up context sends the coin and visible wallet addresses to Apedin.
+- Distinguish time since first seen from actual holding duration. A verified current entry timestamp is not yet available, so no live hold-versus-average countdown is claimed.
+
 ## 0.30.3 — 2026-10-30
 
 - Expand wallet observation beyond the three-wallet test to automatically enroll verified ranked Solana wallets appearing in the feed. Accounts without a verified wallet binding remain uncovered.
