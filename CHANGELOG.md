@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.29.11 — 2026-10-30
+
+- Protect available member handles associated with recorded KOL and ranked-feed profiles, including their recorded aliases and previously ranked callers.
+- Claiming a protected name requires verified ownership of its linked source accounts. Shared names remain protected until ownership is resolved; existing member handles are preserved.
+
 ## 0.29.10 — 2026-10-30
 
 - Resume budgeted coin-age lookups for unresolved Solana tokens. Creation times still require independent transaction verification.
