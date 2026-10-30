@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.30.0 — 2026-10-30
+
+- Add an initial three-wallet behaviour pilot: eligible new entries below $100k estimated market cap contribute to seven-day hold-time, position-size and winning/losing exit summaries, with sample counts.
+- Show “Collecting history” while observations accumulate; rows awaiting entry verification are labelled accordingly. Historical trades are not backfilled. Entry market cap is an estimate, and early samples may be small.
+- Place wallet summaries in Compact rows and expanded Ultra details. First usable statistics appear as available; established summaries refresh every three days.
+- Make top token cards denser with larger primary numbers and top-aligned metrics while keeping their carousel footprint.
+- Add subtle highlights to top rank badges, simplify repeated thesis headings, and avoid flashing the sign-in loading message for fast responses.
+
 ## 0.29.11 — 2026-10-30
 
 - Protect available member handles associated with recorded KOL and ranked-feed profiles, including their recorded aliases and previously ranked callers.
