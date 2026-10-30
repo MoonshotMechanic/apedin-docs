@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.30.2 — 2026-10-30
+
+- Fix loading of the new wallet panel assets so fresh page visits start correctly.
+
+## 0.30.1 — 2026-10-30
+
+- Keep repeated source call updates flowing when a caller name is already queued for protection, preserving both the call history and name reservations.
+
 ## 0.30.0 — 2026-10-30
 
 - Add an initial three-wallet behaviour pilot: eligible new entries below $100k estimated market cap contribute to seven-day hold-time, position-size and winning/losing exit summaries, with sample counts.
