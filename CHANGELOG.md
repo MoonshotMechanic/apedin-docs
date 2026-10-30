@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.30.3 — 2026-10-30
+
+- Expand wallet observation beyond the three-wallet test to automatically enroll verified ranked Solana wallets appearing in the feed. Accounts without a verified wallet binding remain uncovered.
+- Keep statistics limited to observed entries below $100k estimated market cap, without historical backfill.
+- Show queued collection explicitly when a wallet is awaiting its turn. Collection is paced, so coverage can be delayed.
+
 ## 0.30.2 — 2026-10-30
 
 - Fix loading of the new wallet panel assets so fresh page visits start correctly.
