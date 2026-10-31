@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.30.5 — 2026-10-31
+
+- Prioritize verification renewal for ranked Pump wallets so large background queues do not delay their badges. Expired mappings are rechecked against the source before being restored.
+- Restore weekly KolScan rank refreshes for its updated public-page format.
+- Renewed eligible mappings flow into automatic wallet observation. Enrollment starts collecting forward; it does not invent historical hold-time averages.
+- Pump overlay collector uploads remain disabled.
+
 ## 0.30.4 — 2026-10-31
 
 - Add read-only wallet context for a personal Chrome overlay on Pump holder pages, showing available verified source rank numbers and eligible observed hold-time averages with sample counts. Missing, ambiguous and expired evidence stays hidden.
