@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.30.7 — 2026-10-31
+
+- The Pump overlay distinguishes current ranks, historical ranks labelled with their last verification age, queued hold-history refreshes, and missing verified data. Missing data is not presented as proof that a wallet is unranked.
+- Expired hold-time figures remain hidden. Historical ranks do not grant current wallet verification or hold-time eligibility.
+- The personal Chrome collector starts locally on supported coin pages. Stop and Clear pause the current page; uploads remain disabled.
+
 ## 0.30.6 — 2026-10-31
 
 - Prioritize refreshes for a bounded set of verified wallets being viewed in the Pump overlay while retaining background observation. Busy queues and provider delays can still postpone coverage; stale numeric data stays hidden.
