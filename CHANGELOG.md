@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.30.6 — 2026-10-31
+
+- Prioritize refreshes for a bounded set of verified wallets being viewed in the Pump overlay while retaining background observation. Busy queues and provider delays can still postpone coverage; stale numeric data stays hidden.
+- Refresh observed averages after completed wallet checks and allow eligible context for verified Pump and FOMO wallet mappings. Long activity histories yield between batches without presenting partial results as current.
+- Hold-time averages retain their sample counts and observed-history scope. Overlay collector uploads remain disabled; refresh requests use only the coin and wallet IDs already used for context lookups.
+
 ## 0.30.5 — 2026-10-31
 
 - Prioritize verification renewal for ranked Pump wallets so large background queues do not delay their badges. Expired mappings are rechecked against the source before being restored.
