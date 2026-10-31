@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.30.8 — 2026-10-31
+
+- Add a manual Find entry action to the personal Pump overlay for eligible current ranked/KOL wallets. It performs a bounded coin-specific history check and shows a short-lived holding timer when the result reconciles.
+- Describe results as GMGN-history reconstructions with a last-checked time, rather than independent on-chain verification. Incomplete or ambiguous history does not produce a timer.
+- Protect the personal lookup action with separate access authorization, reuse pending checks, and retain request limits. Ordinary page visits do not start entry searches; collector uploads remain disabled.
+
 ## 0.30.7 — 2026-10-31
 
 - The Pump overlay distinguishes current ranks, historical ranks labelled with their last verification age, queued hold-history refreshes, and missing verified data. Missing data is not presented as proof that a wallet is unranked.
