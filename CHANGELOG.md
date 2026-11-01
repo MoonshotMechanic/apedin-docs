@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.30.10 — 2026-11-01
+
+- Restore native GMGN call ingestion for its updated opaque caller-ID format. Preserve exact identity casing across ranked eligibility and profile evidence; existing legacy IDs remain supported.
+- Keep source-account ownership review separate from provider identity and wallet evidence. No ownership claims are inferred from the new ID format.
+
 ## 0.30.9 — 2026-11-01
 
 - Repair ranked caller history recovery so eligible callers can re-enter collection after ranking changes, including callers missed by an earlier queue update.
