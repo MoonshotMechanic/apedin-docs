@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.30.9 — 2026-11-01
+
+- Repair ranked caller history recovery so eligible callers can re-enter collection after ranking changes, including callers missed by an earlier queue update.
+- Allow the local KolScan rank helper to open a temporary background tab when its daily update is due. Chrome and its local helper must still be running.
+- Surface a collection error when a non-empty GMGN response contains no valid callouts, rather than treating rejected data as a healthy refresh.
+
 ## Unreleased
 
 - Temporarily pause X activity collection and hide X snapshot controls from feed rows and the ticker while discovery work is evaluated. Existing stored snapshots remain preserved and are not displayed during the pause.
