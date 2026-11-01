@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Temporarily pause X activity collection and hide X snapshot controls from feed rows and the ticker while discovery work is evaluated. Existing stored snapshots remain preserved and are not displayed during the pause.
+
 ## 0.30.8 — 2026-10-31
 
 - Add a manual Find entry action to the personal Pump overlay for eligible current ranked/KOL wallets. It performs a bounded coin-specific history check and shows a short-lived holding timer when the result reconciles.
