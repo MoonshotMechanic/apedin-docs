@@ -11,6 +11,7 @@ The current service does not execute trades or take custody of funds. Wallet con
 ## Data coverage and interpretation
 
 - **The feed is an observed dataset.** It is not a complete archive of every call, trader or market event. Collection start dates, interruptions and available history differ by source.
+- **Pump browser fallback.** During direct-source interruptions, an operator browser can contribute public callout cards rendered by Pump. These records preserve attribution and post timestamps, but cover only observed cards while collection is running; they do not reconstruct the full missed history. This fallback does not import position figures, engagement counters or award XP.
 - **Pump collection starting point.** Pump background engagement collection starts with a one-time 24-hour lookback. Refresh jobs from before that fixed starting point are excluded; later work remains as it ages. Stored calls and existing XP awards remain. This is not a rolling data-retention limit.
 - **Ranked refresh scope.** Background history and engagement refreshes focus on ranked/KOL identities. Live discovery and limited identity checks remain broader; existing records and XP awards are retained. Leaderboard delays, source limits and outages can still leave gaps. Non-ranked profile and engagement data may stop refreshing.
 - **Timing varies.** Posts, captures, refreshes and market snapshots can have different timestamps. Provider delays, browser-assisted collection and outages can affect freshness and completeness.

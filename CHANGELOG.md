@@ -1,5 +1,10 @@
 # Changelog
 
+## 3 November 2026 — Pump feed continuity
+
+- Added partial browser-assisted Pump callout collection during direct-source interruptions.
+- Preserves source attribution and deduplicates against existing callouts. Coverage depends on observed browser cards; missing history and unavailable metrics remain missing.
+
 ## 0.30.12 — 2026-11-02
 
 - Add consistent token outlines in the feed and a subtle highlight when the same token appears more than once among the freshest 20 filtered calls. Matching uses chain and contract identity.
