@@ -2,6 +2,7 @@
 
 ## 3 November 2026 — Pump feed continuity
 
+- Browser-collected Pump cards now include available displayed position and profit snapshots, with capture timing.
 - Added partial browser-assisted Pump callout collection during direct-source interruptions.
 - Preserves source attribution and deduplicates against existing callouts. Coverage depends on observed browser cards; missing history and unavailable metrics remain missing.
 
