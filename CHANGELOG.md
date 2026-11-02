@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.30.11 — 2026-11-02
+
+- Protect the feed and collectors from web-connection overload by bounding concurrent requests and releasing completed connections promptly.
+- Return a short retry response when capacity is busy, and prevent health probes from waiting indefinitely behind ingestion work.
+
 ## 0.30.10 — 2026-11-01
 
 - Restore native GMGN call ingestion for its updated opaque caller-ID format. Preserve exact identity casing across ranked eligibility and profile evidence; existing legacy IDs remain supported.
