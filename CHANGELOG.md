@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.30.12 — 2026-11-02
+
+- Add consistent token outlines in the feed and a subtle highlight when the same token appears more than once among the freshest 20 filtered calls. Matching uses chain and contract identity.
+- Animate top-rank glows without changing row spacing, respecting reduced-motion settings.
+- New sign-ins now receive the configured seven-day Apedin session instead of inheriting the shorter sign-in token lifetime. Existing sessions are not extended retroactively.
+
 ## 0.30.11 — 2026-11-02
 
 - Protect the feed and collectors from web-connection overload by bounding concurrent requests and releasing completed connections promptly.
