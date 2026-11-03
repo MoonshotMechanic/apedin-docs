@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.32.4 — aligned activity and retained follows (3 November 2026)
+
+- Compact rows align trader identities, rank spaces, times and amounts. Buy/sell amounts use distinct B/S badges without repeating the ticker; row height and market-cap/holder context remain unchanged.
+- Traders remain in the collection watchlist after dropping out of a later top-100 snapshot. Current ranks refresh independently, and unknown ranks leave an empty slot.
+- Stale or same-time conflicting leaderboard imports cannot restore outdated ranks.
+
 ## 0.32.3 — compact trade rows (3 November 2026)
 
 - Pump rows show one seven-day realized-profit rank. The collection watchlist still combines daily, weekly and monthly top-100 accounts without duplicate wallets. Accounts without an observed weekly rank remain in the feed without a substitute rank.

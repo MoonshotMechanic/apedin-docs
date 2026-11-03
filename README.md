@@ -8,7 +8,7 @@ apedin brings observed Pump trader activity and community discussion into one pl
 
 ## What you can do
 
-- Browse observed Pump buys and sells from a watchlist combining the top 100 realized-profit accounts across daily, weekly and monthly leaderboard snapshots.
+- Browse observed Pump buys and sells from a watchlist combining the top 100 realized-profit accounts across daily, weekly and monthly leaderboard snapshots. Previously followed traders remain eligible after dropping out of those rankings; displayed ranks reflect the latest accepted snapshot.
 - Use separate Buys and Sells checkboxes, both enabled initially. Other source feeds and historical callouts are hidden from the main feed.
 - See an available seven-day Pump realized-profit rank, current Kolscan ranks for exact wallet matches, coin age, and brief market-cap and holder-count observations with sparklines.
 - Explore token rooms, caller profiles and source-linked activity histories.
