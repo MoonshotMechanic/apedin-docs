@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.33.0 — observed trader averages (3 November 2026)
+
+- Compact rows add HT (estimated time to first observed sell), AB (average observed buy amount), and AS (average observed sell amount), without increasing row height.
+- Tap a value for its definition, sample count and available capture coverage. Missing or stale summaries show a dash.
+- Averages use available observations within a seven-day lookback, not a complete trading history.
+
 ## 0.32.4 — aligned activity and retained follows (3 November 2026)
 
 - Compact rows align trader identities, rank spaces, times and amounts. Buy/sell amounts use distinct B/S badges without repeating the ticker; row height and market-cap/holder context remain unchanged.
