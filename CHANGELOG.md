@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.33.2 — faster activity delivery (3 November 2026)
+
+- Active feed pages check for new trades every two seconds. Paused and hidden pages retain their existing behavior.
+- The updated browser collector batches newly rendered activity for about one second, with deduplication and retry controls. Existing installations need an extension reload and a Pump page refresh to activate this change. This reduces Apedin’s added delay; Pump’s own rendering delay and network conditions still affect arrival time.
+
 ## 0.33.1 — coin-first compact rows (3 November 2026)
 
 - Ultra-compact rows show ape/rank badges, seen time, coin and B/S amount before the username and remaining details.
