@@ -1,5 +1,11 @@
 # Changelog
 
+## 3 November 2026 — Brief feed market tracking
+
+- New feed rows show market cap and available Solana holder counts with small sparkline graphs.
+- Shared updates run about every 15 seconds for two minutes from ingestion, then the row retains frozen values and graphs. Reloading the page does not restart tracking.
+- Missing provider values remain unknown, and delayed observations are labelled.
+
 ## 3 November 2026 — Pump feed continuity
 
 - Browser-collected Pump cards now include available displayed position and profit snapshots, with capture timing.
