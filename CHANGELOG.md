@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.32.2 — Pump trader activity (3 November 2026)
+
+- The main feed focuses on observed Pump buys and sells, with separate Buys and Sells controls enabled by default. Other source feeds and historical callouts are hidden from this view.
+- The initial watchlist combines the top 100 realized-profit accounts across the daily, weekly and monthly leaderboards, deduplicated by public wallet identity. Ranks are dated observations, not a continuously guaranteed top-100 membership.
+- Cards retain trader identity, available rank context, coin age, and two-minute market-cap and holder observations. Displayed purchase/sale amounts are distinct from total holdings.
+- Public profile social links are reference information; exact wallet matches and unverified identity associations remain distinct.
+- Coverage is limited to captured activity. Missing rows, delayed values and indistinguishable rendered trades are possible; this is not a complete or independently verified transaction history.
+
 ## 3 November 2026 — Feed navigation and token colours
 
 - Ultra-compact rows use a small arrow above the expand control to scroll sideways, returning to the start at the far end. It hides when the row fits.
