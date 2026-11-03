@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.33.1 — coin-first compact rows (3 November 2026)
+
+- Ultra-compact rows show ape/rank badges, seen time, coin and B/S amount before the username and remaining details.
+- Phone layouts keep the coin and amount visible earlier without increasing row height; additional context remains available by scrolling the row.
+
 ## 0.33.0 — observed trader averages (3 November 2026)
 
 - Compact rows add HT (estimated time to first observed sell), AB (average observed buy amount), and AS (average observed sell amount), without increasing row height.
