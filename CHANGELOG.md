@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.32.3 — compact trade rows (3 November 2026)
+
+- Pump rows show one seven-day realized-profit rank. The collection watchlist still combines daily, weekly and monthly top-100 accounts without duplicate wallets. Accounts without an observed weekly rank remain in the feed without a substitute rank.
+- Trade amounts use larger, vertically aligned B/S labels for buys and sells.
+- Available, unexpired Kolscan ranks can appear for exact matching Solana wallets; no name-based identity inference is used.
+
 ## 0.32.2 — Pump trader activity (3 November 2026)
 
 - The main feed focuses on observed Pump buys and sells, with separate Buys and Sells controls enabled by default. Other source feeds and historical callouts are hidden from this view.
