@@ -1,5 +1,11 @@
 # Changelog
 
+## 3 November 2026 — Desktop feed space
+
+- Ultra-compact rows show a horizontal scrollbar when their contents extend beyond the row.
+- Hide sidebar / Show sidebar expands or restores the feed’s right-hand insights panel, remembering the choice in the browser.
+
+
 ## 3 November 2026 — Brief feed market tracking
 
 - New feed rows show market cap and available Solana holder counts with small sparkline graphs.
