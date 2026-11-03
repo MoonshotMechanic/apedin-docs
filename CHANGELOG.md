@@ -1,5 +1,11 @@
 # Changelog
 
+## 3 November 2026 — Feed navigation and token colours
+
+- Ultra-compact rows use a small arrow above the expand control to scroll sideways, returning to the start at the far end. It hides when the row fits.
+- Repeated tokens among the freshest 20 calls receive distinct muted colours, retained while each group remains visible. Matching uses chain and contract identity.
+
+
 ## 3 November 2026 — Desktop feed space
 
 - Ultra-compact rows show a horizontal scrollbar when their contents extend beyond the row.
