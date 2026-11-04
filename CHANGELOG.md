@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.33.5 — Coming soon badges (4 November 2026)
+
+- The Coming soon area includes Chrome and Firefox extensions alongside the App Store and Google Play. The community token proposal page has been withdrawn.
+
 ## 0.33.4 — Mega Compact feed view (4 November 2026)
 
 - Select Mega Compact in the feed layout menu for shorter tickers and trader names, whole-dollar buy and sell badges, and a pill icon for Pump. Hover over a trade amount to see its full value. Ultra Compact remains available.
