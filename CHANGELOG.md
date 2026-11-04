@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.33.6 — Pump trader eligibility (4 November 2026)
+
+- The feed tracks traders who have appeared in the weekly or monthly Pump top 100 by realized profit. A trader stays eligible after dropping out. The Pump badge on a trade row shows a recorded current weekly rank when available.
+
 ## 0.33.5 — Coming soon badges (4 November 2026)
 
 - The Coming soon area includes Chrome and Firefox extensions alongside the App Store and Google Play. The community token proposal page has been withdrawn.
