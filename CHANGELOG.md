@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.33.4 — Mega Compact feed view (4 November 2026)
+
+- Select Mega Compact in the feed layout menu for shorter tickers and trader names, whole-dollar buy and sell badges, and a pill icon for Pump. Hover over a trade amount to see its full value. Ultra Compact remains available.
+
 ## 0.33.3 — coin age and launch context (4 November 2026)
 
 - Eligible Pump activity can gain a verified coin creation time and an “At launch” section in expanded, compact and normal cards.
