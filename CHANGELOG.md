@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.33.7 — Monthly Pump rank badge (4 November 2026)
+
+- Traders with a current monthly rank and no current weekly rank now show a compact purple 1M badge with their rank and the Pump pill.
+
 ## 0.33.6 — Pump trader eligibility (4 November 2026)
 
 - The feed tracks traders who have appeared in the weekly or monthly Pump top 100 by realized profit. A trader stays eligible after dropping out. The Pump badge on a trade row shows a recorded current weekly rank when available.
