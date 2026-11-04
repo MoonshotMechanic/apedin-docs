@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.33.3 — coin age and launch context (4 November 2026)
+
+- Eligible Pump activity can gain a verified coin creation time and an “At launch” section in expanded, compact and normal cards.
+- Launch details describe the creation transaction, including initial supply and observed authority changes; they are not current holdings or a token safety rating.
+- Available creation responses are retained for later analysis, and successful coin lookups are cached to avoid repeating the same work.
+
 ## 0.33.2 — faster activity delivery (3 November 2026)
 
 - Active feed pages check for new trades every two seconds. Paused and hidden pages retain their existing behavior.
