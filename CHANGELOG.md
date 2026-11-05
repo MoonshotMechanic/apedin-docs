@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.33.11 — Selected trader inclusion (5 November 2026)
+
+- Support explicitly selected traders alongside the weekly/monthly Pump roster. Inclusion does not create a rank badge.
+
 ## 0.33.10 — Share button visibility (5 November 2026)
 
 - Corrected a style rule that hid Share in expanded trade rows.
