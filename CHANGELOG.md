@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.33.9 — Row sharing (5 November 2026)
+
+- The Share action is available beside Save on trade rows, opening image templates and text sharing.
+
+
 ## 0.33.8 — Rank filters and personalized sharing (5 November 2026)
 
 - Filter Pump trades by seven-day or monthly ranking and inclusive rank ranges. Preferences are saved in the browser.
