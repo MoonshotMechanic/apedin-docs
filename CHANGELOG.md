@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.33.10 — Share button visibility (5 November 2026)
+
+- Corrected a style rule that hid Share in expanded trade rows.
+
+
 ## 0.33.9 — Row sharing (5 November 2026)
 
 - The Share action is available beside Save on trade rows, opening image templates and text sharing.
