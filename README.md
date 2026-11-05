@@ -9,6 +9,8 @@ apedin brings observed Pump trader activity and community discussion into one pl
 ## What you can do
 
 - Browse observed Pump buys and sells from a watchlist of wallets observed in the weekly or monthly top 100 by realized profit. Previously qualified traders stay eligible after dropping out. Feed rows show the current weekly Pump rank first. If only a current monthly rank is available, a purple 1M badge shows it over a translucent Pump pill.
+- Filter by weekly or monthly Pump ranks, either Pump period, or weekly KolScan rank, with inclusive minimum and maximum rank values.
+- Create a personalized Bro turn around image from a trade row and download or copy it for sharing.
 - Use separate Buys and Sells checkboxes, both enabled initially. Other source feeds and historical callouts are hidden from the main feed.
 - See an available seven-day Pump realized-profit rank, current Kolscan ranks for exact wallet matches, coin age, and brief market-cap and holder-count observations with sparklines.
 - Read compact HT, AB and AS trader averages, with tap-to-view sample counts and coverage.

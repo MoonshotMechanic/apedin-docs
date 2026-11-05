@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.33.8 — Rank filters and personalized sharing (5 November 2026)
+
+- Filter Pump trades by seven-day or monthly ranking and inclusive rank ranges. Preferences are saved in the browser.
+- Choose Bro turn around from a row’s image share templates. The image uses the selected trader’s name and can be downloaded or copied.
+- The optional local Chart Lab displays historical holder combinations. Local research recording adds timed follow-up observations.
+
+
 ## 0.33.7 — Monthly Pump rank badge (4 November 2026)
 
 - Traders with a current monthly rank and no current weekly rank now show a compact purple 1M badge with their rank and the Pump pill.
