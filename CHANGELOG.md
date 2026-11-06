@@ -1,5 +1,10 @@
 # Changelog
 
+## Research follow-up timing — 6 November 2026
+
+- The local research recorder can make a bounded read of Apedin's existing cached feed metrics around 40 seconds after a newly observed eligible coin, with one stale-cache retry around 42 seconds.
+- This gives a follow-up reading time to arrive before the study's existing 45-second cutoff. It uses no additional market-data provider requests and does not change indicator rules or collector upload settings.
+
 ## 0.33.14 — Research follow-up capture (6 November 2026)
 
 - Retain Jupiter market-cap observations alongside the displayed market-cap source, using data already fetched for holder readings.
