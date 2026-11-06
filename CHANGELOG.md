@@ -1,5 +1,10 @@
 # Changelog
 
+## Chart Lab 0.3.13 — Adaptive toolbar readability (6 November 2026)
+
+- The chart toolbar scales text to the available space, with a compact layout for narrow screens.
+- Holder comparisons use clearer up/down triangles. Their meaning and all indicator calculations remain unchanged.
+
 ## Chart Lab 0.3.12 — Panel efficiency (6 November 2026)
 
 - The chart panel avoids rewriting unchanged display values, reducing unnecessary page updates.
