@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.33.14 — Research follow-up capture (6 November 2026)
+
+- Retain Jupiter market-cap observations alongside the displayed market-cap source, using data already fetched for holder readings.
+- Prioritize research readings whose collection window is still open and check which readings are due after feed collection completes.
+- Provider polling limits, displayed market-cap selection and experimental indicator rules remain unchanged. This does not enable collector uploads or restore historical missing observations.
+
 ## 0.33.13 — Simpler profiles and feed navigation (6 November 2026)
 
 - Register with Google or X to create a profile and unlock the full feed. Existing email members retain an existing-account recovery option.
