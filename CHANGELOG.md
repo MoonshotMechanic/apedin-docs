@@ -1,5 +1,11 @@
 # Changelog
 
+## Chart Lab 0.3.10 — Local pilot reference refresh (6 November 2026)
+
+- The descriptive holder-count comparison can refresh its historical reference automatically while the local research companion is running. Once installed, reference updates do not require reloading the extension.
+- The comparison retains its age and market-cap bands, minimum sample requirement and exclusion of the current coin. Details show reference freshness; an unavailable refresh retains the last valid reference.
+- This update does not change the experimental indicators or enable chart-data uploads.
+
 ## 0.33.12 — Feed push pilot (6 November 2026)
 
 - The live feed can refresh when a new activity notification arrives, while retaining periodic refresh as a fallback.
