@@ -1,5 +1,10 @@
 # Changelog
 
+## Chart Lab 0.3.12 — Panel efficiency (6 November 2026)
+
+- The chart panel avoids rewriting unchanged display values, reducing unnecessary page updates.
+- Indicator calculations, data refresh schedules and upload settings are unchanged.
+
 ## Chart Lab 0.3.11 — Automatic Similar coins reference (6 November 2026)
 
 - Similar coins can refresh its historical sample automatically through the local research companion after installation, without further extension reloads.
