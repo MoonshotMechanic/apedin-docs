@@ -1,5 +1,11 @@
 # Changelog
 
+## Chart Lab 0.3.11 — Automatic Similar coins reference (6 November 2026)
+
+- Similar coins can refresh its historical sample automatically through the local research companion after installation, without further extension reloads.
+- Holder matching, typical market-cap ranges, strict follow-up timing and minimum coverage requirements are unchanged. Missing outcomes remain visible, and unavailable refreshes retain the last valid reference.
+- Reference freshness is shown in the details. The experimental indicator rules and chart-data upload settings are unchanged.
+
 ## Chart Lab 0.3.10 — Local pilot reference refresh (6 November 2026)
 
 - The descriptive holder-count comparison can refresh its historical reference automatically while the local research companion is running. Once installed, reference updates do not require reloading the extension.
