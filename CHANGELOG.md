@@ -1,5 +1,10 @@
 # Changelog
 
+## Trades together feed context (6 November 2026)
+
+- Feed cards can show **Trades together · N wallets** for selected Pump wallets with historical timing evidence. This is context only: it does not confirm common ownership or an atomic bundle.
+- An optional browser-local feed filter can hide those selected historical groups. It does not identify or remove every coordinated trade.
+
 ## 0.33.11 — Selected trader inclusion (5 November 2026)
 
 - Support explicitly selected traders alongside the weekly/monthly Pump roster. Inclusion does not create a rank badge.
