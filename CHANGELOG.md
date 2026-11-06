@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.33.13 — Simpler profiles and feed navigation (6 November 2026)
+
+- Register with Google or X to create a profile and unlock the full feed. Existing email members retain an existing-account recovery option.
+- Remove wallet connection choices, profile-claim prompts, evolution/level artwork and the APED avatar column. Trader rank badges stay aligned, with more room for tokens and buy/sell amounts on mobile.
+- Choose a default token destination: DexScreener, Pump.fun, GMGN, FOMO or Axiom. The choice persists in the same browser while signed out and can be changed in Settings.
+
 ## Chart Lab 0.3.13 — Adaptive toolbar readability (6 November 2026)
 
 - The chart toolbar scales text to the available space, with a compact layout for narrow screens.
