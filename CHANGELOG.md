@@ -5,6 +5,7 @@
 - The next release is prepared to add **Smart Pulse (Experimental)**: a compact, expandable view that groups closely timed observed Pump buy/sell rows for the same token. It will preserve the individual rows on expansion and labels observed buy-minus-sell totals as context, not profit or coordination evidence.
 - The prepared release also includes the selected dark-gray deadpan ape wordmark treatment.
 - This entry is intentionally marked pending: the private release image passed its tests and build, but GitHub Actions could not upload the immutable deployment artifact because GitHub reports an artifact-storage quota. None of these changes are represented as live until the artifact-gated production deployment succeeds.
+- The release transport was subsequently reduced without removing the profile-video feature, and its browser-rendering smoke test passed. GitHub still reports the same account-level storage quota, so this remains pending rather than live.
 
 ## Chart Lab 0.3.15 — Faster visible-chart holder polling (7 November 2026)
 
