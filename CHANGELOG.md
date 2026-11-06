@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.33.12 — Feed push pilot (6 November 2026)
+
+- The live feed can refresh when a new activity notification arrives, while retaining periodic refresh as a fallback.
+- Existing filters, pause controls and history browsing remain in effect. This speeds delivery after activity reaches Apedin; it does not make upstream sources report trades sooner.
+- Push availability is bounded. If a connection is unavailable or interrupted, the feed continues using periodic refresh.
+
 ## Trades together feed context (6 November 2026)
 
 - Feed cards can show a compact orange **TT** chip for selected Pump wallets with historical timing evidence. Hovering it explains the group size and evidence. This is context only: it does not confirm common ownership or an atomic bundle.
