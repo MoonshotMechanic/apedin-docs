@@ -6,6 +6,11 @@
 - Remove wallet connection choices, profile-claim prompts, evolution/level artwork and the APED avatar column. Trader rank badges stay aligned, with more room for tokens and buy/sell amounts on mobile.
 - Choose a default token destination: DexScreener, Pump.fun, GMGN, FOMO or Axiom. The choice persists in the same browser while signed out and can be changed in Settings.
 
+## Chart Lab 0.3.14 — Local displayed-view observations (6 November 2026)
+
+- Visible, unpaused coin charts can retain timestamped observations of Pump’s displayed View Count in bounded browser-local storage, using the existing page content.
+- Observations distinguish displayed changes from unchanged readings; they do not establish Pump’s refresh timing or identify unique or active viewers. No new provider requests or remote uploads are introduced.
+
 ## Chart Lab 0.3.13 — Adaptive toolbar readability (6 November 2026)
 
 - The chart toolbar scales text to the available space, with a compact layout for narrow screens.
