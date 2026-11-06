@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.33.15 — pending production publication (7 November 2026)
+
+- The next release is prepared to add **Smart Pulse (Experimental)**: a compact, expandable view that groups closely timed observed Pump buy/sell rows for the same token. It will preserve the individual rows on expansion and labels observed buy-minus-sell totals as context, not profit or coordination evidence.
+- The prepared release also includes the selected dark-gray deadpan ape wordmark treatment.
+- This entry is intentionally marked pending: the private release image passed its tests and build, but GitHub Actions could not upload the immutable deployment artifact because GitHub reports an artifact-storage quota. None of these changes are represented as live until the artifact-gated production deployment succeeds.
+
 ## Chart Lab 0.3.15 — Faster visible-chart holder polling (7 November 2026)
 
 - The updated browser package checks Jupiter holder readings about every three seconds while the chart is visible and unpaused. Reload the extension and refresh Pump once to install this change.
