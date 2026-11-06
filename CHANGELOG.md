@@ -1,5 +1,11 @@
 # Changelog
 
+## Chart Lab 0.3.15 — Faster visible-chart holder polling (7 November 2026)
+
+- The updated browser package checks Jupiter holder readings about every three seconds while the chart is visible and unpaused. Reload the extension and refresh Pump once to install this change.
+- Same-coin tabs continue sharing cached and in-flight readings; provider rate-limit backoff remains active. Faster polling does not guarantee a new upstream holder count each time.
+- Indicator formulas and timing windows, five-second displayed-view sampling and upload settings are unchanged.
+
 ## Research follow-up timing — 6 November 2026
 
 - The local research recorder can make a bounded read of Apedin's existing cached feed metrics around 40 seconds after a newly observed eligible coin, with one stale-cache retry around 42 seconds.
