@@ -2,7 +2,7 @@
 
 ## Trades together feed context (6 November 2026)
 
-- Feed cards can show **Trades together · N wallets** for selected Pump wallets with historical timing evidence. This is context only: it does not confirm common ownership or an atomic bundle.
+- Feed cards can show a compact orange **TT** chip for selected Pump wallets with historical timing evidence. Hovering it explains the group size and evidence. This is context only: it does not confirm common ownership or an atomic bundle.
 - An optional browser-local feed filter can hide those selected historical groups. It does not identify or remove every coordinated trade.
 
 ## 0.33.11 — Selected trader inclusion (5 November 2026)
