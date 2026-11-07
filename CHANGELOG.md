@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.33.16 — Smart Pulse token age (7 November 2026)
+
+- Smart Pulse now shows a compact token age beside the ticker when a validated token-creation timestamp is available.
+- If that timestamp is unavailable or invalid, the age remains explicitly unknown. First-seen and trading-pair timestamps are not substituted.
+
 ## 0.33.15 — Smart Pulse and identity update (7 November 2026)
 
 - **Smart Pulse (Experimental)** is a compact, expandable view that groups closely timed observed Pump buy/sell rows for the same token. It preserves individual rows on expansion and labels observed buy-minus-sell totals as context, not profit or coordination evidence.
