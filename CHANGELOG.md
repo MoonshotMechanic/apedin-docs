@@ -1,5 +1,9 @@
 # Changelog
 
+## Pump feed reliability (7 November 2026)
+
+- Queued activity from an explicitly excluded trader no longer blocks eligible traders' activity from reaching the feed. Excluded activity remains filtered out.
+
 ## 0.33.16 — Pump roster provenance (7 November 2026)
 
 - Pump roster eligibility now retains whether it was observed through a manual follow or a current/historical top-100 seven-day or one-month rank fact.
