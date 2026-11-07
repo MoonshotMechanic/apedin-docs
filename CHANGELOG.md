@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.33.16 hotfix — Smart Pulse row toggle (7 November 2026)
+
+- Click unused Smart Pulse row space to expand or collapse its details.
+- Token and control buttons keep their existing behavior. Selecting text or swiping/dragging horizontally does not toggle a row.
+
 ## 0.33.16 — Smart Pulse token age (7 November 2026)
 
 - Smart Pulse now shows a compact token age beside the ticker when a validated token-creation timestamp is available.
