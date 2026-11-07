@@ -4,6 +4,7 @@
 
 - Smart Pulse now combines two or more observed fills in the same short same-coin burst, including repeated fills by one trader. A single observed trade stays in the standard Activity feed layout.
 - Context labels and sound tiers still count distinct traders, so repeated fills do not make a burst appear to have more independent participants.
+- The delivery cache was updated so a normal page reload receives this grouping behavior.
 
 ## 0.33.16 hotfix — Smart Pulse arrival sounds (7 November 2026)
 
