@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.33.16 hotfix — Smart Pulse TT context (7 November 2026)
+
+- Smart Pulse now shows a small `TT` count when traders in a loaded burst have existing, evidence-backed Trades Together context.
+- Expanded trader details show the same `TT` badge and its historical-evidence explanation. A shared burst by itself never creates this label.
+
 ## 0.33.16 hotfix — Smart Pulse row toggle (7 November 2026)
 
 - Click unused Smart Pulse row space to expand or collapse its details.
