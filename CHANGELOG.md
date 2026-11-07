@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.33.16 — Pump roster provenance (7 November 2026)
+
+- Pump roster eligibility now retains whether it was observed through a manual follow or a current/historical top-100 seven-day or one-month rank fact.
+- Actual observed rank facts remain available for later investigation after an account drops off a ranking. A local unfollow excludes that account from future automatic roster refreshes until it is explicitly restored.
+
 ## 0.33.16 hotfix — Smart Pulse 30-second burst gap (7 November 2026)
 
 - Same-coin Smart Pulse activity can now stay in one burst across up to 30 seconds of inactivity. The existing 60-second maximum burst span remains in effect.
