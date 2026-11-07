@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.33.16 hotfix — Smart Pulse multi-trader grouping (7 November 2026)
+
+- Smart Pulse now creates a compact summary only when a short burst contains two or more distinct traders.
+- Repeated fills from one trader stay as the original individual Activity rows, with the normal row controls and timing.
+
 ## 0.33.16 hotfix — Smart Pulse TT context (7 November 2026)
 
 - Smart Pulse now shows a small `TT` count when traders in a loaded burst have existing, evidence-backed Trades Together context.
