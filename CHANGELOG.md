@@ -1,14 +1,14 @@
 # Changelog
 
+## 0.33.16 hotfix — Smart Pulse repeated fills (7 November 2026)
+
+- Smart Pulse now combines two or more observed fills in the same short same-coin burst, including repeated fills by one trader. A single observed trade stays in the standard Activity feed layout.
+- Context labels and sound tiers still count distinct traders, so repeated fills do not make a burst appear to have more independent participants.
+
 ## 0.33.16 hotfix — Smart Pulse arrival sounds (7 November 2026)
 
 - Fresh Smart Pulse arrivals can use short, tiered browser sounds that distinguish ordinary activity from larger observed bursts. The feature is experimental and does not imply coordination or a trading recommendation.
 - The sound control remains user-mutable, and Settings includes labeled previews. Initial loading, manual reveals, and paused backlog releases stay silent.
-
-## 0.33.16 hotfix — Smart Pulse multi-trader grouping (7 November 2026)
-
-- Smart Pulse now creates a compact summary only when a short burst contains two or more distinct traders.
-- Repeated fills from one trader stay as the original individual Activity rows, with the normal row controls and timing.
 
 ## 0.33.16 hotfix — Smart Pulse TT context (7 November 2026)
 
