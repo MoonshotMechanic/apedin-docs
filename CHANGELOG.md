@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.33.16 hotfix — Smart Pulse 30-second burst gap (7 November 2026)
+
+- Same-coin Smart Pulse activity can now stay in one burst across up to 30 seconds of inactivity. The existing 60-second maximum burst span remains in effect.
+
 ## 0.33.16 hotfix — Smart Pulse repeated fills (7 November 2026)
 
 - Smart Pulse now combines two or more observed fills in the same short same-coin burst, including repeated fills by one trader. A single observed trade stays in the standard Activity feed layout.
