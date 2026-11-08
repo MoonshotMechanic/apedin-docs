@@ -1,5 +1,10 @@
 # Changelog
 
+## Pump realized-rank refresh — local browser collector (8 November 2026)
+
+- The local Pump Trade Collector can refresh rendered seven-day and one-month realized-profit top-100 facts once per day while Chrome and a signed-in, rendered Pump leaderboard are available.
+- Refreshes retain prior qualifying traders and their observed rank history. Explicit local unfollows remain excluded; this collector does not follow or unfollow accounts or make trading decisions.
+
 ## Chart Lab 0.3.15 — local browser package update (8 November 2026)
 
 - The unpacked Chart Lab browser package now includes the verified compact toolbar, optional Similar coins and holder-reference context, and a browser-local displayed View Count recorder/export helper.
