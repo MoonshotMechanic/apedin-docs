@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.33.16 — Smart Pulse controls (8 November 2026)
+
+- Smart Pulse can now be narrowed by the number of distinct traders in each loaded burst. This presentation filter does not change Activity or Saved.
+- Settings now includes a browser-local alert-volume control. It defaults to a louder level, `0%` is silent, and the separate Sound control still decides whether live alerts play.
+
 ## Pump feed reliability (7 November 2026)
 
 - Queued activity from an explicitly excluded trader no longer blocks eligible traders' activity from reaching the feed. Excluded activity remains filtered out.
