@@ -1,5 +1,11 @@
 # Changelog
 
+## Chart Lab 0.3.15 — local browser package update (8 November 2026)
+
+- The unpacked Chart Lab browser package now includes the verified compact toolbar, optional Similar coins and holder-reference context, and a browser-local displayed View Count recorder/export helper.
+- The optional local companion remains required for automatic historical-reference refreshes; without it, the package keeps its existing on-page and bundled fallback behavior.
+- Reload the unpacked extension in Chrome, then refresh Pump.fun to use this local browser update. This is not an Apedin website deployment.
+
 ## Chart Lab browser helper — latest-callouts pane (8 November 2026)
 
 - The optional Chart Lab companion now hides only Pump's Latest callouts pane when that view is selected. Friends and other pane views remain visible, and resize handles are no longer mistaken for callout columns.
