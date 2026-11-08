@@ -1,5 +1,10 @@
 # Changelog
 
+## Chart Lab browser helper — latest-callouts pane (8 November 2026)
+
+- The optional Chart Lab companion now hides only Pump's Latest callouts pane when that view is selected. Friends and other pane views remain visible, and resize handles are no longer mistaken for callout columns.
+- Reload the unpacked companion extension in Chrome to install this local browser change.
+
 ## 0.33.16 hotfix — Louder Smart Pulse alerts (8 November 2026)
 
 - Smart Pulse alert output is now three times louder at the same saved volume setting. The volume slider, `0%` silence behavior and separate Sound control are unchanged.
