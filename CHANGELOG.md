@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.33.16 hotfix — Louder Smart Pulse alerts (8 November 2026)
+
+- Smart Pulse alert output is now three times louder at the same saved volume setting. The volume slider, `0%` silence behavior and separate Sound control are unchanged.
+
 ## 0.33.16 — Smart Pulse controls (8 November 2026)
 
 - Smart Pulse can now be narrowed by the number of distinct traders in each loaded burst. This presentation filter does not change Activity or Saved.
